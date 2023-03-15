@@ -1,0 +1,141 @@
+#contact {
+	padding-top: 10px;
+}
+.btn-link {
+	font-size: 1.3rem;
+	--bs-btn-padding-x: 0.3rem
+}
+
+p {
+	margin-bottom: 0;
+}
+
+.entry {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.years {
+	margin-right: 10px;
+}
+
+.name {
+	font-weight: bold;
+}
+
+.place {
+    font-style: italic;
+}
+
+ul {
+    margin-bottom: 0;
+    padding-inline-start: 10px;
+}
+
+li {
+    padding-left: 7px;
+}
+
+#cv-content li::marker {
+    content: "\F7F6 ";
+    font-family: "bootstrap-icons";
+    font-size: 0.6em;
+}
+
+#cv-content ul.work li::marker {
+    color: #e52b50;
+}
+
+#cv-content ul.projects li::marker {
+    color: #03809c;
+}
+
+#publications li {
+    padding-bottom: 5px;
+}
+
+#publications li::marker {
+    content: "\F417 ";
+    font-family: "bootstrap-icons";
+    font-size: 0.5em;
+    color: #e52b50;
+}
+
+#my-name {
+    display: block;
+    font-size: 20pt;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid #C8D7DF;
+    padding: 30px 0 10px 0;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 85%;
+    height: auto
+}
+
+.skills {
+    width: 90%;
+    margin: auto
+}
+
+.skill-name {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold
+}
+
+.skill {
+    display: inline-block;
+    background-color: #f9f9f9;
+    padding: 3px 5px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    margin: 2px 0;
+}
+
+.skill.perfect,.skill.advanced {
+    color: #00677e
+}
+
+.skill.interm {
+    color: #0095b6
+}
+
+.skill.beginner {
+    color: #8bd0d9
+}
+
+#description {
+    margin: 0 auto 30px auto;
+    width: 85%;
+}
+
+a {
+    color: #e52b50;
+    text-decoration: none;
+}
+
+body {
+    margin-bottom: 50px
+}
+
+#contact a {
+    color: #e63244
+}
+
+#publications {
+    margin-top: 30px;
+}
+
+.note {
+    font-style: italic;
+}
+
+.subsection {
+    font-weight: bold;
+    padding: 10px 0 5px 0;
+}
