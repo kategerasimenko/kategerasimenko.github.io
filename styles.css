@@ -119,6 +119,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #03809c;
+}
+
 body {
     margin-bottom: 50px
 }
