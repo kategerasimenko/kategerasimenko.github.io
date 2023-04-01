@@ -29,7 +29,6 @@ p {
 
 ul {
     margin-bottom: 0;
-    padding-inline-start: 10px;
 }
 
 li {
@@ -114,21 +113,22 @@ img {
     width: 85%;
 }
 
-a {
+a, #contact a {
     color: #e52b50;
     text-decoration: none;
 }
 
-a:hover {
+a:hover, #contact a:hover {
     color: #03809c;
+}
+
+#contact-grp {
+    display: inline-block;
+    cursor: pointer;
 }
 
 body {
     margin-bottom: 50px
-}
-
-#contact a {
-    color: #e63244
 }
 
 #publications {
